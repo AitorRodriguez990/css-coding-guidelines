@@ -1,5 +1,7 @@
 # Directrices de codificación CSS de Pisos
 
+Este documento tiene la intención de ser un punto de referencia para aquellos desarrolladores que deban escribir código CSS. Aquí no se encuentran normas o leyes, sinos sugerencias.
+
 En construcción :+1:
 
 
@@ -27,7 +29,7 @@ En construcción :+1:
 
 Son muchas las sugerencias que aquí se pueden leer, pero podemos resumirlo en:
 - Todo el código CSS/LESS debe parecer escrito por la misma persona.
-- Si después de consultar esta guía aún te surgen dudas sobre como hacer algo es probable que haya un vacío en esta guía, por lo que hay que mejorarla.
+- Si después de consultar esta guía aún te surgen dudas sobre como hacer algo es probable que haya un vacío en ella, por lo que hay que mejorarla. ¡Ayuda a mejorarla!
 
 
 <a name="contribuyendo"></a>
