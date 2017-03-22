@@ -1,4 +1,4 @@
-# Guía de estilos de Pisos
+# Directrices de codificación CSS de Pisos
 
 En construcción :+1:
 
