@@ -20,7 +20,7 @@ En construcción :+1:
 13. [Contribuyendo](#contribuyendo)
 
 
-<a href="introduccion"></a>
+<a name="introduccion"></a>
 ## 1. Introducción
 
 > "Para triunfar es necesario, más que nada, tener sentido común." - Napoleón Bonaparte
@@ -30,7 +30,7 @@ Son muchas las sugerencias que aquí se pueden leer, pero podemos resumirlo en:
 - Si después de consultar esta guía aún te surgen dudas sobre como hacer algo es probable que haya un vacío en esta guía, por lo que hay que mejorarla.
 
 
-<a href="contribuyendo"></a>
+<a name="contribuyendo"></a>
 ## 13. Contribuyendo
 
 Cualquier contribución es bienvenida, así que si tienes algo que ofrecer puedes hacerlo. Para aquellos que no sepáis como colaborar porque sois nuevos en GitHub comparto algunos enlaces:
