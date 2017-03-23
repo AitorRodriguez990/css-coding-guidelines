@@ -1,6 +1,6 @@
 # Directrices de codificación CSS de Pisos
 
-Este documento tiene la intención de ser un punto de referencia para aquellos desarrolladores que deban escribir código CSS. Aquí no se encuentran normas o leyes, sinos sugerencias.
+Este documento tiene la intención de ser un punto de referencia para aquellos desarrolladores que deban escribir código CSS. Aquí no se encuentran normas o leyes, sino sugerencias.
 
 En construcción :+1:
 
@@ -8,8 +8,8 @@ En construcción :+1:
 ## Tabla de contenidos
 
 1. [Introducción](#introduccion)
-2. ~~Comentarios~~
-3. ~~Sintaxis~~
+2. ~~Sintaxis~~
+3. ~~Comentarios~~ 
 4. ~~Nombre de clases~~
 5. ~~Orden de propiedades~~
 6. ~~Prefijo de propiedades~~
