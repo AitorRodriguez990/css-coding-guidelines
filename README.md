@@ -21,7 +21,7 @@ Aún en construcción :+1:
 10. ~~Configuración del editor~~
 11. ~~Otros enlaces de interés~~
 12. ~~Agradecimientos~~
-13. [Contribuyendo](#contribuyendo)
+13. [Contribuciones](#contribuciones)
 
 
 <a name="introduccion"></a>
@@ -109,8 +109,8 @@ A la hora de nombrar clases a las que aplicar estilos estas deberían seguir las
 ```
 
 
-<a name="contribuyendo"></a>
-## 13. Contribuyendo
+<a name="contribuciones"></a>
+## 13. Contribuciones
 
 Cualquier contribución es bienvenida, así que si tienes algo que ofrecer puedes hacerlo. Para aquellos que no sepáis como colaborar porque sois nuevos en GitHub comparto algunos enlaces:
 
