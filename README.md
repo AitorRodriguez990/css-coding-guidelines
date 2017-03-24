@@ -2,14 +2,16 @@
 
 Este documento tiene la intención de ser un punto de referencia para aquellos desarrolladores que deban escribir código CSS. Aquí no se encuentran normas o leyes, sino sugerencias.
 
-En construcción :+1:
+El objetivo es conseguir un código CSS ordenado, limpio y reutilizable.
+
+Aún en construcción :+1:
 
 
 ## Tabla de contenidos
 
 1. [Introducción](#introduccion)
 2. ~~Formato~~
-3. ~~Comentarios~~ 
+3. [Comentarios](#comentarios)
 4. [Nombre de clases](#nombreclases)
 5. ~~Orden de propiedades~~
 6. ~~Prefijo de propiedades~~
@@ -31,6 +33,38 @@ Son muchas las sugerencias que aquí se pueden leer, pero podemos resumirlo en:
 - Todo el código CSS/LESS debe parecer escrito por la misma persona.
 - Si después de consultar esta guía aún te surgen dudas sobre como hacer algo es probable que haya un vacío en ella, por lo que hay que mejorarla. ¡Ayuda a mejorarla!
 
+
+<a name="comentarios"></a>
+## 3. Comentarios
+Es muy importante tener el código bien comentado, puesto que esto ayudará a otros compañeros a saber qué es lo que hace una clase y para qué fue creada. Dedica el tiempo necesario y haz de los comentarios algo útil. A continuación algunos consejos:
+- Utilízalos para explicar el funcionamiento de un objeto, no para únicamente volver a repetir el nombre de la clase.
+- No hagas las líneas de los comentarios extremadamente largas, ves añadiendo saltos de línea. Se toma un ancho de 80 columnas como estándar.
+- Evita los comentarios al final de los bloques o secciones.
+
+**Ejemplo de buen uso**
+```css
+/* --------------------------------------------------------------------------
+  Comentario de sección. Ejemplo: Botones
+  --------------------------------------------------------------------------- */
+  
+/* Comentario de sub-sección. Ejemplo: Botones del PTA
+  --------------------------------------------------------------------------- */
+  
+/**
+ * Comentario descriptivo sobre la clase.
+ * 
+ * Aquí debemos describir el funcionamiento de la clase para que esta quede
+ * bien documentada y sirva a otros compañeros para entenderla. Recuerda 
+ * hacer saltos de línea para que la descripción se pueda leer mejor.
+ * 
+ * También podemos añadir un TODO, indicando que algo está pendiente de hacer
+ * o bien requiere de un cambio para mejorarlo.
+ */
+ 
+ /* Comentario de una sola línea */
+```
+
+**Nota:** Algunos preprocesadores permite el uso de `//` para los comentarios de una línea. Intenta evitarlos.
 
 <a name="nombreclases"></a>
 ## 4. Nombre de clases
