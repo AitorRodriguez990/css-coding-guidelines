@@ -4,8 +4,6 @@ Este documento tiene la intención de ser un punto de referencia para aquellos d
 
 El objetivo es conseguir un código CSS ordenado, limpio y reutilizable.
 
-Aún en construcción :+1:
-
 
 ## Tabla de contenidos
 
@@ -13,7 +11,7 @@ Aún en construcción :+1:
 2. ~~Formato~~
 3. [Comentarios](#comentarios)
 4. [Nombre de clases](#nombreclases)
-5. ~~Orden de propiedades~~
+5. [Orden de propiedades](#ordenprioridades)
 6. ~~Prefijo de propiedades~~
 7. ~~Selectores~~
 8. ~~Anidamiento~~
@@ -105,6 +103,45 @@ A la hora de nombrar clases a las que aplicar estilos estas deberían seguir las
 .header-navbar {
   position: fixed;
   top: 0;
+}
+```
+
+
+<a name="ordenprioridades"></a>
+## 5. Orden de prioridades
+
+En construcción :+1:
+
+```css
+.orden-de-propiedades {
+  /* Posicionamiento */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+
+  /* Modelo */
+  display: block;
+  float: left;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  
+  /* Formato */
+  border-radius: 3px 3px 0 0;
+  background-color: #d9d9d9;
+  border: 1px solid #333;
+  
+  /* Tipografía */
+  font-size: 13px;
+  line-height: 1.5;
+  color: #030303;
+  text-align: center;
+
+  /* Otros */
+  opacity: 0.8;
 }
 ```
 
