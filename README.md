@@ -112,7 +112,33 @@ Es muy importante tener el código bien comentado, puesto que esto ayudará a ot
 <a name="formato"></a>
 ## 4. Formato
 
-En construcción :+1:
+  - Cuando se apliquen las mismas propiedades a varias clases añade cada una de estas en una nueva línea.
+  - Abre la declaración de propiedades con `{` en la misma línea que declares la clase y después de un espacio. Pon el cierre `}` en una nueva línea.
+  - Deja una línea en blanco entre clases.
+  - Añade un espacio después de `:`. Solo uno.
+  - Añade siempre `;` al final cada propiedad, aunque sea la última o única propiedad.
+  - En valores hexadecimales utiliza mayúsculas y códigos abreviados: `color: #ccc;`
+  - Haz siempre uso de comillas dobles: `content: "";`
+  - No indiques unidades en valores 0 siempre que sea posible: `margin: 0 auto;` 
+  - Indica siempre 0 a valores con coma menores a uno. Mejor `opacity: 0.8;` que `opacity: .8;` porque resultará más fácil de leer. 
+  
+  
+**Ejemplo de buenas prácticas**
+```css
+.clase1,
+.clase2,
+.clase3 {
+  color: #ccc;
+  font-weight: bold;
+  content: "|";
+}
+
+.clase4 {
+  color: #c2c2c2;
+}
+
+.clase5 { margin: 0 10px 5px 0; }
+```
 
 
 <a name="ordenprioridades"></a>
@@ -158,7 +184,7 @@ Ordenar correctamente las propiedades hará que todas las clases se "lean" de la
 <a name="declaracionesindividuales"></a>
 ### Declaraciones individuales
 
-Sólo en clases con una única propiedad es conveniente mantenerlo todo escrito en una sola línea añadiendo espacios dentro de las llaves. Las clases con múltiples propiedades nunca se deben escribir en una sola línea, ya que en caso de error de compilación no sabremos que propiedad es la que nos está fallando.
+Solo en clases con una única propiedad es conveniente mantenerlo todo escrito en una sola línea añadiendo espacios dentro de las llaves. Las clases con múltiples propiedades nunca se deben escribir en una sola línea, ya que en caso de error de compilación no sabremos que propiedad es la que nos está fallando.
 
 ```css
 .una-propiedad { color: #333; }
