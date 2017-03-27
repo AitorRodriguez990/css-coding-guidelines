@@ -11,11 +11,12 @@ El objetivo es conseguir un código CSS ordenado, limpio y reutilizable.
 2. [Nombre de clases](#nombreclases)
 3. [Comentarios](#comentarios)
 4. [Formato](#formato)
-    - [Orden de propiedades](#ordenprioridades)
-    - ~~Prefijo de propiedades~~
-    - ~~Media queries~~
-    - ~~Selectores~~
-    - ~~Anidamiento~~
+  - [Orden de propiedades](#ordenprioridades)
+  - ~~Declaraciones individuales~~
+  - [Prefijo de propiedades](#prefijopropiedades)
+  - ~~Media queries~~
+  - ~~Selectores~~
+  - ~~Anidamiento~~
 5. ~~Configuración del editor~~
 6. ~~Otros enlaces de interés~~
 7. ~~Agradecimientos~~
@@ -152,6 +153,19 @@ Ordenar correctamente las propiedades hará que todas las clases se "lean" de la
 }
 ```
 
+<a name="profijopropiedades"></a>
+### Prefijo de prioridades
+
+Es conveniente alinear correctamente aquellas propiedades que necesitan de prefijos específicos para navegadores, de esta manera se facilita la lectura y comprensión.
+
+```css
+.prefijo-de-propiedades {
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+}
+
+```
 
 <a name="contribuciones"></a>
 ## 8. Contribuciones
