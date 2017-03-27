@@ -111,10 +111,12 @@ Es muy importante tener el código bien comentado, puesto que esto ayudará a ot
 <a name="formato"></a>
 ## 4. Formato
 
+En construcción :+1:
+
 <a name="ordenprioridades"></a>
 ### Orden de prioridades
 
-En construcción :+1:
+Ordenar correctamente las propiedades hará que todas las clases se "lean" de la misma forma. Una buena práctica es ordenar estas propiedades según su afectación: Posicionamiento, modelo, formato, tipología y otros.
 
 ```css
 .orden-de-propiedades {
@@ -137,6 +139,7 @@ En construcción :+1:
   border-radius: 3px 3px 0 0;
   background-color: #d9d9d9;
   border: 1px solid #333;
+  box-shadow: 3px 3px 5px #ccc;
   
   /* Tipografía */
   font-size: 13px;
