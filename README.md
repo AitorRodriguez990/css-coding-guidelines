@@ -154,7 +154,7 @@ Ordenar correctamente las propiedades hará que todas las clases se "lean" de la
 
 
 <a name="contribuciones"></a>
-## 13. Contribuciones
+## 8. Contribuciones
 
 Cualquier contribución es bienvenida, así que si tienes algo que ofrecer puedes hacerlo. Para aquellos que no sepáis como colaborar porque sois nuevos en GitHub comparto algunos enlaces:
 
