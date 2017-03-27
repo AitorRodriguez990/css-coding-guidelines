@@ -205,9 +205,9 @@ Es conveniente alinear correctamente aquellas propiedades que necesitan de prefi
 
 ```css
 .prefijo-de-propiedades {
-    -webkit-border-radius: 3px;
-       -moz-border-radius: 3px;
-            border-radius: 3px;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
 }
 
 ```
