@@ -153,7 +153,7 @@ Ordenar correctamente las propiedades hará que todas las clases se "lean" de la
 }
 ```
 
-<a name="profijopropiedades"></a>
+<a name="prefijopropiedades"></a>
 ### Prefijo de prioridades
 
 Es conveniente alinear correctamente aquellas propiedades que necesitan de prefijos específicos para navegadores, de esta manera se facilita la lectura y comprensión.
