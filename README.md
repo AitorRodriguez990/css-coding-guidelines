@@ -11,11 +11,11 @@ El objetivo es conseguir un código CSS ordenado, limpio y reutilizable.
 2. [Nombre de clases](#nombreclases)
 3. [Comentarios](#comentarios)
 4. [Formato](#formato)
-  - [Orden de propiedades](#ordenprioridades)
-  - ~~Prefijo de propiedades~~
-  - ~~Media queries~~
-  - ~~Selectores~~
-  - ~~Anidamiento~~
+    - [Orden de propiedades](#ordenprioridades)
+    - ~~Prefijo de propiedades~~
+    - ~~Media queries~~
+    - ~~Selectores~~
+    - ~~Anidamiento~~
 5. ~~Configuración del editor~~
 6. ~~Otros enlaces de interés~~
 7. ~~Agradecimientos~~
