@@ -14,7 +14,7 @@ El objetivo es conseguir un código CSS ordenado, limpio y reutilizable.
     - [Orden de propiedades](#ordenprioridades)
     - [Declaraciones individuales](#declaracionesindividuales)
     - [Prefijo de propiedades](#prefijopropiedades)
-    - ~~Media queries~~
+    - [Media queries](#mediaqueries)
     - ~~Selectores~~
     - ~~Anidamiento~~
 5. ~~Configuración del editor~~
@@ -114,6 +114,7 @@ Es muy importante tener el código bien comentado, puesto que esto ayudará a ot
 
 En construcción :+1:
 
+
 <a name="ordenprioridades"></a>
 ### Orden de prioridades
 
@@ -184,6 +185,29 @@ Es conveniente alinear correctamente aquellas propiedades que necesitan de prefi
 }
 
 ```
+
+
+<a name="mediaqueries"></a>
+### Media queries
+
+Añade los *media queries* inmediatamente después de su clase y no en otro fichero o al final del fichero, ya que cuando queramos modificar algo será más fácil de localizar.
+
+```css
+.formulario-contacto {
+  width: 300px;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .formulario-contacto {
+    width: 225px;
+    font-size: 14px;
+  }
+}
+```
+
+**Nota**: Esto únicamente aplica a vistas *responsive*. No aplicará en caso de tener diferentes vistas para escritorio y móvil puesto será más óptimo cargar un fichero independiente con menos código CSS.
+
 
 <a name="contribuciones"></a>
 ## 8. Contribuciones
