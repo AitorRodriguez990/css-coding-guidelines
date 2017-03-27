@@ -12,7 +12,7 @@ El objetivo es conseguir un código CSS ordenado, limpio y reutilizable.
 3. [Comentarios](#comentarios)
 4. [Formato](#formato)
     - [Orden de propiedades](#ordenprioridades)
-    - ~~Declaraciones individuales~~
+    - [Declaraciones individuales](#declaracionesindividuales)
     - [Prefijo de propiedades](#prefijopropiedades)
     - ~~Media queries~~
     - ~~Selectores~~
@@ -152,6 +152,24 @@ Ordenar correctamente las propiedades hará que todas las clases se "lean" de la
   opacity: 0.8;
 }
 ```
+
+
+<a name="declaracionesindividuales"></a>
+### Declaraciones individuales
+
+Sólo en clases con una única propiedad es conveniente mantenerlo todo escrito en una sola línea añadiendo espacios dentro de las llaves. Las clases con múltiples propiedades nunca se deben escribir en una sola línea, ya que en caso de error de compilación no sabremos que propiedad es la que nos está fallando.
+
+```css
+.una-propiedad { color: #333; }
+
+.multiples-propiedades {
+  color: #444;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+```
+
 
 <a name="prefijopropiedades"></a>
 ### Prefijo de prioridades
