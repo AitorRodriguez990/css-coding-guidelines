@@ -239,7 +239,8 @@ Añade los *media queries* inmediatamente después de su clase y no en otro fich
 <a name="selectoresyanidamiento"></a>
 ### Selectores y anidamiento
 
-Para conseguir que el código CSS sea lo más ordenado, limpio y reutilizable posible es necesario pensar en componentes. De esta manera no habrá necesidad de crear selectores muy específicos que en otras muchas situaciones será necesario sobrescribir.
+- Para conseguir que el código CSS sea lo más ordenado, limpio y reutilizable posible es necesario pensar en componentes. De esta manera no habrá necesidad de crear selectores muy específicos que en otras muchas situaciones será necesario sobrescribir.
+- Aplicar propiedades sobre clases y no sobre etiquetas mejora el rendimiento y evita equivocaciones aplicando estilos donde no queremos. Mejor `.titulo-1 { color: #333; }` que `h1 { color: #333; }`.
 
 A continuación muestro un ejemplo de un código CSS *común* y uno añadiendo prefijos a las clases, el cual se basa en los componentes y mejor la comprensión del código:
 
@@ -288,8 +289,6 @@ A continuación muestro un ejemplo de un código CSS *común* y uno añadiendo p
 .inmobiliaria-descripcion { }
 .inmobiliaria-contactar { }
 ```
-
-Por otro lado aplicar propiedades sobre clases y no sobre etiquetas mejora el rendimiento y evita equivocaciones aplicando estilos donde no queremos. Mejor `.titulo-1 { color: #333; }` que `h1 { color: #333; }`.
 
 
 <a name="enlacesinteres"></a>
