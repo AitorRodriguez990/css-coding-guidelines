@@ -118,7 +118,7 @@ Es muy importante tener el código bien comentado, puesto que esto ayudará a ot
   - Añade un espacio después de `:`. Solo uno.
   - Acaba siempre con `;` cada una de las propiedades, aunque sea la última o única propiedad.
   - En valores hexadecimales utiliza mayúsculas y códigos abreviados: `color: #ccc`.
-  - Haz siempre uso de comillas dobles: `content: "";`.
+  - Haz siempre uso de comillas dobles: `content: ""`.
   - No indiques unidades en valores 0 siempre que sea posible: `margin: 0 auto`.
   - Indica siempre 0 a valores con coma menores a uno. Mejor `opacity: 0.8` que `opacity: .8` porque resultará más fácil de leer. 
   - Deja un espacio después de cada valor dentro de una función: `background-color: rgba(0, 0, 0, 0.7)`.
