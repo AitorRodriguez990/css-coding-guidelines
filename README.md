@@ -17,7 +17,7 @@ El objetivo es conseguir un código CSS ordenado, limpio y reutilizable.
     - [Media queries](#mediaqueries)
     - [Selectores y anidamiento](#selectoresyanidamiento)
 5. ~~Configuración del editor~~
-6. ~~Otros enlaces de interés~~
+6. [Enlaces de interés](#enlacesinteres)
 7. ~~Agradecimientos~~
 8. [Contribuciones](#contribuciones)
 
@@ -290,6 +290,13 @@ A continuación muestro un ejemplo de un código CSS *común* y uno añadiendo p
 ```
 
 Por otro lado aplicar propiedades sobre clases y no sobre etiquetas mejora el rendimiento y evita equivocaciones aplicando estilos donde no queremos. Mejor `.titulo-1 { color: #333; }` que `h1 { color: #333; }`.
+
+
+<a name="enlacesinteres"></a>
+## 6. Enlaces de interés
+
+- [Comillas en los valores de los atributos](https://mathiasbynens.be/notes/unquoted-attribute-values#css).
+- [Stop a la cascada de estilos](http://markdotto.com/2012/03/02/stop-the-cascade/).
 
 
 <a name="contribuciones"></a>
