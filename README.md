@@ -241,6 +241,7 @@ Añade los *media queries* inmediatamente después de su clase y no en otro fich
 
 - Para conseguir que el código CSS sea lo más ordenado, limpio y reutilizable posible es necesario pensar en componentes. De esta manera no habrá necesidad de crear selectores muy específicos que en otras muchas situaciones será necesario sobrescribir.
 - Aplicar propiedades sobre clases y no sobre etiquetas mejora el rendimiento y evita equivocaciones aplicando estilos donde no queremos. Mejor `.titulo-1 { color: #333; }` que `h1 { color: #333; }`.
+- Intenta evitar anidar clases con un nivel de anidamiento demasiado profundo, ya que dificulta la lectura y provoca que haya clases demasiado específicas y difícilmente reutilizables.
 
 A continuación muestro un ejemplo de un código CSS *común* y uno añadiendo prefijos a las clases, el cual se basa en los componentes y mejor la comprensión del código:
 
@@ -295,6 +296,7 @@ A continuación muestro un ejemplo de un código CSS *común* y uno añadiendo p
 ## 6. Enlaces de interés
 
 - [Comillas en los valores de los atributos](https://mathiasbynens.be/notes/unquoted-attribute-values#css).
+- [Prefijos en nombre de clases](http://markdotto.com/2012/02/16/scope-css-classes-with-prefixes/)
 - [Stop a la cascada de estilos](http://markdotto.com/2012/03/02/stop-the-cascade/).
 
 
