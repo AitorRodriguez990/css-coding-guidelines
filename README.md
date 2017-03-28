@@ -296,7 +296,7 @@ A continuación muestro un ejemplo de un código CSS *común* y uno añadiendo p
 ## 6. Enlaces de interés
 
 - [Comillas en los valores de los atributos](https://mathiasbynens.be/notes/unquoted-attribute-values#css).
-- [Prefijos en nombre de clases](http://markdotto.com/2012/02/16/scope-css-classes-with-prefixes/)
+- [Prefijos en nombre de clases](http://markdotto.com/2012/02/16/scope-css-classes-with-prefixes/).
 - [Stop a la cascada de estilos](http://markdotto.com/2012/03/02/stop-the-cascade/).
 
 
