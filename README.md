@@ -15,8 +15,7 @@ El objetivo es conseguir un código CSS ordenado, limpio y reutilizable.
     - [Declaraciones individuales](#declaracionesindividuales)
     - [Prefijo de propiedades](#prefijopropiedades)
     - [Media queries](#mediaqueries)
-    - ~~Selectores~~
-    - ~~Anidamiento~~
+    - [Selectores y anidamiento](#selectoresyanidamiento)
 5. ~~Configuración del editor~~
 6. ~~Otros enlaces de interés~~
 7. ~~Agradecimientos~~
@@ -235,6 +234,62 @@ Añade los *media queries* inmediatamente después de su clase y no en otro fich
 ```
 
 **Nota**: Esto únicamente aplica a vistas *responsive*. No aplicará en caso de tener diferentes vistas para escritorio y móvil puesto será más óptimo cargar un fichero independiente con menos código CSS.
+
+
+<a name="selectoresyanidamiento"></a>
+### Selectores y anidamiento
+
+Para conseguir que el código CSS sea lo más ordenado, limpio y reutilizable posible es necesario pensar en componentes. De esta manera no habrá necesidad de crear selectores muy específicos que en otras muchas situaciones será necesario sobrescribir.
+
+A continuación muestro un ejemplo de un código CSS *común* y uno añadiendo prefijos a las clases, el cual se basa en los componentes y mejor la comprensión del código:
+
+**Mal**
+
+```html
+<div class="inmobiliaria">
+  <div class="nombre">
+    Nombre inmobiliaria
+  </div>
+  <div class="descripcion">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et facilisis leo.
+  </div>
+  <div class="contactar">
+    Contactar
+  </div>
+</div>
+```
+
+```css
+.inmobiliaria { }
+.inmobiliaria .nombre { }
+.inmobiliaria .descripcion { }
+.inmobiliaria .contactar { }
+```
+
+**Bien**
+
+```html
+<div class="inmobiliaria">
+  <div class="inmobiliaria-nombre">
+    Nombre inmobiliaria
+  </div>
+  <div class="inmobiliaria-descripcion">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et facilisis leo.
+  </div>
+  <div class="inmobiliaria-contactar">
+    Contactar
+  </div>
+</div>
+```
+
+```css
+.inmobiliaria { }
+.inmobiliaria-nombre { }
+.inmobiliaria-descripcion { }
+.inmobiliaria-contactar { }
+```
+
+Por otro lado aplicar propiedades sobre clases y no sobre etiquetas mejora el rendimiento y evita equivocaciones aplicando estilos donde no queremos. Mejor `.titulo-1 { color: #333; }` que `h1 { color: #333; }`.
 
 
 <a name="contribuciones"></a>
