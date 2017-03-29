@@ -313,4 +313,4 @@ Cualquier contribución es bienvenida, así que si tienes algo que ofrecer puede
 <a name="copyright"></a>
 ## 9.Copyright
 
-Copyright (c) 2017 Aitor Rodríguez - [Pisos](https://www.pisos.com). Directive licensed under the Apache License 2.0.
+Copyright (c) 2017 Aitor Rodríguez - [Pisos](http://www.pisos.com). Directive licensed under the Apache License 2.0.
