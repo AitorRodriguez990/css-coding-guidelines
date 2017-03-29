@@ -18,9 +18,8 @@ El objetivo es conseguir un código CSS ordenado, limpio y reutilizable.
     - [Selectores y anidamiento](#selectoresyanidamiento)
 5. ~~Configuración del editor~~
 6. [Enlaces de interés](#enlacesinteres)
-7. ~~Agradecimientos~~
-8. [Contribuciones](#contribuciones)
-9. [Copyright](#copyright)
+7. [Contribuciones](#contribuciones)
+8. [Copyright](#copyright)
 
 
 <a name="introduccion"></a>
@@ -301,7 +300,7 @@ A continuación muestro un ejemplo de un código CSS *común* y uno añadiendo p
 
 
 <a name="contribuciones"></a>
-## 8. Contribuciones
+## 7. Contribuciones
 
 Cualquier contribución es bienvenida, así que si tienes algo que ofrecer puedes hacerlo. Para aquellos que no sepáis como colaborar porque sois nuevos en GitHub comparto algunos enlaces:
 
@@ -310,6 +309,6 @@ Cualquier contribución es bienvenida, así que si tienes algo que ofrecer puede
 
 
 <a name="copyright"></a>
-## 9.Copyright
+## 8.Copyright
 
 Copyright (c) 2017 Aitor Rodríguez - [Pisos](http://www.pisos.com). Directive licensed under the Apache License 2.0.
