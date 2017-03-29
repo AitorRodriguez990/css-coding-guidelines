@@ -297,6 +297,7 @@ A continuación muestro un ejemplo de un código CSS *común* y uno añadiendo p
 - [Comillas en los valores de los atributos](https://mathiasbynens.be/notes/unquoted-attribute-values#css).
 - [Prefijos en nombre de clases](http://markdotto.com/2012/02/16/scope-css-classes-with-prefixes/).
 - [Stop a la cascada de estilos](http://markdotto.com/2012/03/02/stop-the-cascade/).
+- [Recopilación de hacks HTML y CSS por @mdo](http://uncasually.github.io/wtf-html-y-css/).
 
 
 <a name="contribuciones"></a>
