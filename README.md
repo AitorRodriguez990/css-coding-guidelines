@@ -20,6 +20,7 @@ El objetivo es conseguir un código CSS ordenado, limpio y reutilizable.
 6. [Enlaces de interés](#enlacesinteres)
 7. ~~Agradecimientos~~
 8. [Contribuciones](#contribuciones)
+9. [Copyright](#copyright)
 
 
 <a name="introduccion"></a>
@@ -307,3 +308,9 @@ Cualquier contribución es bienvenida, así que si tienes algo que ofrecer puede
 
 - [Cómo colaborar en un proyecto](https://gist.github.com/BCasal/026e4c7f5c71418485c1).
 - [Sintaxis de los ficheros de texto](https://help.github.com/articles/basic-writing-and-formatting-syntax/).
+
+
+<a name="copyright"></a>
+## 9.Copyright
+
+Copyright (c) 2017 Aitor Rodríguez - [Pisos](https://www.pisos.com). Directive licensed under the Apache License 2.0.
