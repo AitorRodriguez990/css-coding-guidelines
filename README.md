@@ -112,18 +112,19 @@ Es muy importante tener el código bien comentado, puesto que esto ayudará a ot
 <a name="formato"></a>
 ## 4. Formato
 
-  - Cuando se apliquen las mismas propiedades a varias clases añade cada una de estas en una nueva línea.
-  - Abre la declaración de propiedades con `{` en la misma línea que declares la clase y después de un espacio. Pon el cierre `}` en una nueva línea.
-  - Deja una línea en blanco entre clases.
-  - Añade un espacio después de `:`. Solo uno.
-  - Acaba siempre con `;` cada una de las propiedades, aunque sea la última o única propiedad.
-  - En valores hexadecimales utiliza mayúsculas y códigos abreviados: `color: #ccc`.
-  - Haz siempre uso de comillas dobles: `content: ""`.
-  - No indiques unidades en valores 0 siempre que sea posible: `margin: 0 auto`.
-  - Indica siempre 0 a valores con coma menores a uno. Mejor `opacity: 0.8` que `opacity: .8` porque resultará más fácil de leer. 
-  - Deja un espacio después de cada valor dentro de una función: `background-color: rgba(0, 0, 0, 0.7)`.
-  - Añade comillas en los valores de los atributos de los selectores: `input[type="text"]`. En algunos casos no son necesarios, pero de esta manera evitamos errores.
-  - Evita el uso de `!important`. En muchos casos es necesario por no haber sabido hacer las cosas bien.
+- Cuando se apliquen las mismas propiedades a varias clases añade cada una de estas en una nueva línea.
+- Abre la declaración de propiedades con `{` en la misma línea que declares la clase y después de un espacio. Pon el cierre `}` en una nueva línea.
+- Deja una línea en blanco entre clases.
+- Añade un espacio después de `:`. Solo uno.
+- Acaba siempre con `;` cada una de las propiedades, aunque sea la última o única propiedad.
+- En valores hexadecimales utiliza mayúsculas y códigos abreviados: `color: #ccc`.
+- Haz siempre uso de comillas dobles: `content: ""`.
+- No indiques unidades en valores 0 siempre que sea posible: `margin: 0 auto`.
+- Indica siempre 0 a valores con coma menores a uno. Mejor `opacity: 0.8` que `opacity: .8` porque resultará más fácil de leer. 
+- Deja un espacio después de cada valor dentro de una función: `background-color: rgba(0, 0, 0, 0.7)`.
+- Añade comillas en los valores de los atributos de los selectores: `input[type="text"]`. En algunos casos no son necesarios, pero de esta manera evitamos errores.
+- Evita el uso de `!important`. En muchos casos es necesario por no haber sabido hacer las cosas bien.
+- No utilices identificadores ya que provoca demasiada especificidad y no permite un código reutilizable, utiliza clases siempre que sea posible. Mejor `.mapa` que `#mapa`. 
   
 **Ejemplo de buenas prácticas**
 ```css
@@ -196,7 +197,6 @@ Solo en clases con una única propiedad es conveniente mantenerlo todo escrito e
   font-size: 18px;
   font-weight: bold;
 }
-
 ```
 
 
@@ -211,7 +211,6 @@ Es conveniente alinear correctamente aquellas propiedades que necesitan de prefi
      -moz-border-radius: 3px;
           border-radius: 3px;
 }
-
 ```
 
 
