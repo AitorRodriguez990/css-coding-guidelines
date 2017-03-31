@@ -16,7 +16,7 @@ El objetivo es conseguir un código CSS ordenado, limpio y reutilizable.
     - [Prefijo de propiedades](#prefijopropiedades)
     - [Media queries](#mediaqueries)
     - [Selectores y anidamiento](#selectoresyanidamiento)
-5. ~~Configuración del editor~~
+5. [Configuración del editor](#configuracioneditor)
 6. [Enlaces de interés](#enlacesinteres)
 7. [Contribuciones](#contribuciones)
 8. [Copyright](#copyright)
@@ -291,6 +291,30 @@ A continuación muestro un ejemplo de un código CSS *común* y uno añadiendo p
 ```
 
 
+<a name="configuracioneditor"></a>
+## 5. Configuración del editor
+
+Para acabar mantener la homogeneidad en la estructuración de nuestros ficheros se hará uso de un fichero de configuración que permitirá a nuestro editor configurarse automáticamente según los parámetros que se establezcan.
+
+Para ello debemos instalar [EditorConfig para Visual Studio](https://marketplace.visualstudio.com/items?itemName=EditorConfigTeam.EditorConfig) que se encargará de leer el fichero `.editorconfig` de la raíz de nuestro proyecto.
+
+Este fichero de documentación ya está creado y contiene:
+
+```
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+```
+
+Para conocer más sobre EditorConfig y cómo funciona puedes visitar la [documentación oficial](http://editorconfig.org/).
+
+
 <a name="enlacesinteres"></a>
 ## 6. Enlaces de interés
 
@@ -303,7 +327,7 @@ A continuación muestro un ejemplo de un código CSS *común* y uno añadiendo p
 <a name="contribuciones"></a>
 ## 7. Contribuciones
 
-Cualquier contribución es bienvenida, así que si tienes algo que ofrecer puedes hacerlo. Para aquellos que no sepáis como colaborar porque sois nuevos en GitHub comparto algunos enlaces:
+Cualquier contribución es bienvenida, así que si tienes algo que ofrecer puedes hacerlo. Para aquellos que no sepáis como colaborar porque sois nuevos en GitHub comparto algunos enlaces que os serán de gran ayuda:
 
 - [Cómo colaborar en un proyecto](https://gist.github.com/BCasal/026e4c7f5c71418485c1).
 - [Sintaxis de los ficheros de texto](https://help.github.com/articles/basic-writing-and-formatting-syntax/).
