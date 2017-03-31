@@ -304,12 +304,20 @@ Este fichero de documentación ya está creado y contiene:
 root = true
 
 [*]
-indent_style = space
 indent_size = 4
+indent_style = space
 end_of_line = lf
 charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
+
+[*.cs]
+indent_size = 4
+indent_style = space
+
+[*.less]
+indent_size = 4
+indent_style = space
 ```
 
 Para conocer más sobre EditorConfig y cómo funciona puedes visitar la [documentación oficial](http://editorconfig.org/).
