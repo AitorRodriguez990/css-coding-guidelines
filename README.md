@@ -60,12 +60,13 @@ A la hora de nombrar clases a las que aplicar estilos estas deberían seguir las
 **Bien**
 ```css
 .button-blue,
-.button-red {
+.button-red { 
   padding: 10px 20px;
 }
 
 .footer {
-  background: #d9d9d9;
+    background: #d9d9d9;
+    padding: 20px 0;
 }
 
 .header-navbar {
@@ -137,6 +138,7 @@ Es muy importante tener el código bien comentado, puesto que esto ayudará a ot
 
 .clase4 {
   color: #c2c2c2;
+  background-color: (0, 0, 0, 0.5);
 }
 
 .clase5 { margin: 0 10px 5px 0; }
@@ -144,7 +146,7 @@ Es muy importante tener el código bien comentado, puesto que esto ayudará a ot
 
 
 <a name="ordenprioridades"></a>
-### Orden de prioridades
+### Orden de propiedades
 
 Ordenar correctamente las propiedades hará que todas las clases se "lean" de la misma forma. Una buena práctica es ordenar estas propiedades según su afectación: Posicionamiento, modelo, formato, tipología y otros.
 
