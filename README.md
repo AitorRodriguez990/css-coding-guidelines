@@ -242,8 +242,8 @@ Añade los *media queries* inmediatamente después de la declaración de su clas
 ### Selectores y anidamiento
 
 - Para conseguir que el código CSS sea lo más ordenado, limpio y reutilizable posible es necesario pensar en componentes. De esta manera no habrá necesidad de crear selectores muy específicos que en otras muchas situaciones será necesario sobrescribir.
-- Aplicar propiedades sobre clases y no sobre etiquetas mejora el rendimiento y evita equivocaciones aplicando estilos donde no queremos. Mejor `.titulo-1 { color: #333; }` que `h1 { color: #333; }`.
-- No utilices identificadores ya que provoca demasiada especificidad y no permite un código reutilizable, utiliza clases siempre que sea posible. Mejor `.mapa` que `#mapa`. 
+- Aplicar propiedades sobre clases y no sobre etiquetas mejora el rendimiento y evita equivocaciones aplicando estilos donde no queremos. Mejor `.title-1 { color: #333; }` que `h1 { color: #333; }`.
+- No utilices identificadores ya que provoca demasiada especificidad y no permite un código reutilizable, utiliza clases siempre que sea posible. Mejor `.map` que `#map`. 
 - Intenta evitar anidar clases con un nivel de anidamiento demasiado profundo, ya que dificulta la lectura y provoca que haya clases demasiado específicas y difícilmente reutilizables.
 
 A continuación muestro un ejemplo de un código CSS *común* y uno añadiendo prefijos a las clases, el cual se basa en los componentes y mejora la comprensión del código:
