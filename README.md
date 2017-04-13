@@ -36,6 +36,7 @@ Son muchas las sugerencias que aquí se pueden leer, pero podemos resumirlo en:
 ## 2. Nombre de clases
 
 A la hora de nombrar clases a las que aplicar estilos estas deberían seguir las siguientes reglas:
+- Haz uso del inglés como estándar.
 - Utiliza minúsculas y guiones para separar las palabras, no utilices guiones bajo o *camelCase*.
 - Puedes recortar palabras siempre y cuando sigan siendo entendibles, de otra manera el nombre perdería su sentido.
 - Añade prefijos a los nombres de las clases haciendo referencia a su *padre*, si lo tuviera. Será más fácil de saber que hace esa clase.
@@ -128,20 +129,20 @@ Es muy importante tener el código bien comentado, puesto que esto ayudará a ot
   
 **Ejemplo de buenas prácticas**
 ```css
-.clase1,
-.clase2,
-.clase3 {
+.class1,
+.class2,
+.class3 {
   color: #ccc;
   font-weight: bold;
   content: "|";
 }
 
-.clase4 {
+.class4 {
   color: #c2c2c2;
   background-color: (0, 0, 0, 0.5);
 }
 
-.clase5 { margin: 0 10px 5px 0; }
+.class5 { margin: 0 10px 5px 0; }
 ```
 
 
@@ -151,8 +152,8 @@ Es muy importante tener el código bien comentado, puesto que esto ayudará a ot
 Ordenar correctamente las propiedades hará que todas las clases se "lean" de la misma forma. Una buena práctica es ordenar estas propiedades según su afectación: Posicionamiento, modelo, formato, tipología y otros.
 
 ```css
-.orden-de-propiedades {
-  /* Posicionamiento */
+.properties-order {
+  /* Position */
   position: absolute;
   top: 0;
   right: 0;
@@ -160,26 +161,26 @@ Ordenar correctamente las propiedades hará que todas las clases se "lean" de la
   left: 0;
   z-index: 10;
 
-  /* Modelo */
+  /* Box model */
   display: block;
   float: left;
   width: 100%;
   max-width: 300px;
   margin: 0 auto;
   
-  /* Formato */
+  /* Format */
   border-radius: 3px 3px 0 0;
   background-color: #d9d9d9;
   border: 1px solid #333;
   box-shadow: 3px 3px 5px #ccc;
   
-  /* Tipografía */
+  /* Typography */
   font-size: 13px;
   line-height: 1.5;
   color: #030303;
   text-align: center;
 
-  /* Otros */
+  /* Others */
   opacity: 0.8;
 }
 ```
@@ -191,9 +192,9 @@ Ordenar correctamente las propiedades hará que todas las clases se "lean" de la
 Solo en clases con una única propiedad es conveniente mantenerlo todo escrito en una sola línea añadiendo espacios dentro de las llaves. Las clases con múltiples propiedades nunca se deben escribir en una sola línea, ya que en caso de error de compilación no sabremos que propiedad es la que nos está fallando.
 
 ```css
-.una-propiedad { color: #333; }
+.one-property { color: #333; }
 
-.multiples-propiedades {
+.multiple-properties {
   color: #444;
   font-size: 18px;
   font-weight: bold;
@@ -207,7 +208,7 @@ Solo en clases con una única propiedad es conveniente mantenerlo todo escrito e
 Es conveniente alinear correctamente aquellas propiedades que necesitan de prefijos específicos para navegadores, de esta manera se facilita la lectura y comprensión.
 
 ```css
-.prefijo-de-propiedades {
+.properties-prefixes {
   -webkit-border-radius: 3px;
      -moz-border-radius: 3px;
           border-radius: 3px;
@@ -218,16 +219,16 @@ Es conveniente alinear correctamente aquellas propiedades que necesitan de prefi
 <a name="mediaqueries"></a>
 ### Media queries
 
-Añade los *media queries* inmediatamente después de su clase y no en otro fichero o al final del fichero, ya que cuando queramos modificar algo será más fácil de localizar.
+Añade los *media queries* inmediatamente después de la declaración de su clase y no al final del fichero o en otro específico para *media queries*, ya que cuando queramos modificar algo será más fácil de localizar.
 
 ```css
-.formulario-contacto {
+.contact-form {
   width: 300px;
   font-size: 16px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  .formulario-contacto {
+  .contact-form {
     width: 225px;
     font-size: 14px;
   }
@@ -245,59 +246,59 @@ Añade los *media queries* inmediatamente después de su clase y no en otro fich
 - No utilices identificadores ya que provoca demasiada especificidad y no permite un código reutilizable, utiliza clases siempre que sea posible. Mejor `.mapa` que `#mapa`. 
 - Intenta evitar anidar clases con un nivel de anidamiento demasiado profundo, ya que dificulta la lectura y provoca que haya clases demasiado específicas y difícilmente reutilizables.
 
-A continuación muestro un ejemplo de un código CSS *común* y uno añadiendo prefijos a las clases, el cual se basa en los componentes y mejor la comprensión del código:
+A continuación muestro un ejemplo de un código CSS *común* y uno añadiendo prefijos a las clases, el cual se basa en los componentes y mejora la comprensión del código:
 
 **Mal**
 
 ```html
-<div class="inmobiliaria">
-  <div class="nombre">
+<div class="box">
+  <div class="name">
     Nombre inmobiliaria
   </div>
-  <div class="descripcion">
+  <div class="description">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et facilisis leo.
   </div>
-  <div class="contactar">
+  <div class="contact">
     Contactar
   </div>
 </div>
 ```
 
 ```css
-.inmobiliaria { }
-.inmobiliaria .nombre { }
-.inmobiliaria .descripcion { }
-.inmobiliaria .contactar { }
+.box { }
+.box .name { }
+.box .description { }
+.box .contact { }
 ```
 
 **Bien**
 
 ```html
-<div class="inmobiliaria">
-  <div class="inmobiliaria-nombre">
+<div class="box">
+  <div class="box-name">
     Nombre inmobiliaria
   </div>
-  <div class="inmobiliaria-descripcion">
+  <div class="box-description">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et facilisis leo.
   </div>
-  <div class="inmobiliaria-contactar">
+  <div class="box-contact">
     Contactar
   </div>
 </div>
 ```
 
 ```css
-.inmobiliaria { }
-.inmobiliaria-nombre { }
-.inmobiliaria-descripcion { }
-.inmobiliaria-contactar { }
+.box { }
+.box-name { }
+.box-description { }
+.box-contact { }
 ```
 
 
 <a name="configuracioneditor"></a>
 ## 5. Configuración del editor
 
-Para acabar mantener la homogeneidad en la estructuración de nuestros ficheros se hará uso de un fichero de configuración que permitirá a nuestro editor configurarse automáticamente según los parámetros que se establezcan.
+Para acabar de mantener la homogeneidad en la estructuración de nuestros ficheros se hará uso de un fichero de configuración que permitirá a nuestro editor configurarse automáticamente según los parámetros que se establezcan.
 
 Para ello debemos instalar [EditorConfig para Visual Studio](https://marketplace.visualstudio.com/items?itemName=EditorConfigTeam.EditorConfig) que se encargará de leer el fichero `.editorconfig` de la raíz de nuestro proyecto.
 
