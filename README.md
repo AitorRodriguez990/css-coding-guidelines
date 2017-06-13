@@ -29,7 +29,7 @@ El objetivo es conseguir un código CSS ordenado, limpio y reutilizable.
 
 Son muchas las sugerencias que aquí se pueden leer, pero podemos resumirlo en:
 - Todo el código CSS/LESS debe parecer escrito por la misma persona.
-- Si después de consultar esta guía aún te surgen dudas sobre como hacer algo es probable que haya un vacío en ella, por lo que hay que mejorarla. ¡Ayuda a mejorarla!
+- Si después de consultar esta guía aún te surgen dudas sobre cómo hacer algo es probable que haya un vacío en ella, por lo que hay que mejorarla. ¡Ayuda a mejorarla!
 
 
 <a name="nombreclases"></a>
@@ -39,7 +39,7 @@ A la hora de nombrar clases a las que aplicar estilos estas deberían seguir las
 - Haz uso del inglés como estándar.
 - Utiliza minúsculas y guiones para separar las palabras, no utilices guiones bajo o *camelCase*.
 - Puedes recortar palabras siempre y cuando sigan siendo entendibles, de otra manera el nombre perdería su sentido.
-- Añade prefijos a los nombres de las clases haciendo referencia a su *padre*, si lo tuviera. Será más fácil de saber que hace esa clase.
+- Añade prefijos a los nombres de las clases haciendo referencia a su *padre*, si lo tuviera. Será más fácil de saber qué hace esa clase.
 
 **Mal**
 ```css
