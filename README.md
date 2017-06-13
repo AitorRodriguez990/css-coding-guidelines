@@ -79,7 +79,7 @@ A la hora de nombrar clases a las que aplicar estilos estas deberían seguir las
 
 <a name="comentarios"></a>
 ## 3. Comentarios
-Es muy importante tener el código bien comentado, puesto que esto ayudará a otros compañeros a saber qué es lo que hace una clase y para qué fue creada. Dedica el tiempo necesario y haz de los comentarios algo útil. A continuación algunos consejos:
+Es muy importante tener el código bien comentado, puesto que esto ayudará a otros compañeros a saber qué es lo que hace una clase y para qué fue creada. Dedica el tiempo necesario y haz de los comentarios algo útil. A continuación, algunos consejos:
 - Utilízalos para explicar el funcionamiento de un objeto, no para únicamente volver a repetir el nombre de la clase.
 - No hagas las líneas de los comentarios extremadamente largas, ves añadiendo saltos de línea. Se toma un ancho de 80 columnas como estándar.
 - Evita los comentarios al final de los bloques o secciones.
@@ -246,7 +246,7 @@ Añade los *media queries* inmediatamente después de la declaración de su clas
 - No utilices identificadores ya que provoca demasiada especificidad y no permite un código reutilizable, utiliza clases siempre que sea posible. Mejor `.map` que `#map`. 
 - Intenta evitar anidar clases con un nivel de anidamiento demasiado profundo, ya que dificulta la lectura y provoca que haya clases demasiado específicas y difícilmente reutilizables.
 
-A continuación muestro un ejemplo de un código CSS *común* y uno añadiendo prefijos a las clases, el cual se basa en los componentes y mejora la comprensión del código:
+A continuación, muestro un ejemplo de un código CSS *común* y uno añadiendo prefijos a las clases, el cual se basa en los componentes y mejora la comprensión del código:
 
 **Mal**
 
