@@ -1,4 +1,4 @@
-# Directrices de codificación CSS de Pisos
+# Directrices de codificación CSS
 
 Este documento tiene la intención de ser un punto de referencia para aquellos desarrolladores que deban escribir código CSS. Aquí no se encuentran normas o leyes, sino sugerencias.
 
@@ -298,11 +298,9 @@ A continuación, muestro un ejemplo de un código CSS *común* y uno añadiendo 
 <a name="configuracioneditor"></a>
 ## 5. Configuración del editor
 
-Para acabar de mantener la homogeneidad en la estructuración de nuestros ficheros se hará uso de un fichero de configuración que permitirá a nuestro editor configurarse automáticamente según los parámetros que se establezcan.
+Para acabar de mantener la homogeneidad en la estructuración de nuestros ficheros se puede hacer uso de un fichero de configuración que permitirá a nuestro editor configurarse automáticamente según los parámetros que se establezcan.
 
-Para ello debemos instalar [EditorConfig para Visual Studio](https://marketplace.visualstudio.com/items?itemName=EditorConfigTeam.EditorConfig) que se encargará de leer el fichero `.editorconfig` de la raíz de nuestro proyecto.
-
-Este fichero de documentación ya está creado y contiene:
+Aquí se puede ver un código de ejemplo que este fichero de configuración del editor puede contener:
 
 ```
 root = true
@@ -349,4 +347,4 @@ Cualquier contribución es bienvenida, así que si tienes algo que ofrecer puede
 <a name="copyright"></a>
 ## 8.Copyright
 
-Copyright (c) 2017 [Pisos](http://www.pisos.com). Licensed under the Apache License 2.0.
+Copyright (c) 2017 [Aitor Rodríguez](http://www.frontendfactory.es). Licensed under the Apache License 2.0.
