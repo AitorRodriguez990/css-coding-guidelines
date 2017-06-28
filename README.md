@@ -334,6 +334,7 @@ Para conocer más sobre EditorConfig y cómo funciona puedes visitar la [documen
 - [Prefijos en nombre de clases](http://markdotto.com/2012/02/16/scope-css-classes-with-prefixes/).
 - [Stop a la cascada de estilos](http://markdotto.com/2012/03/02/stop-the-cascade/).
 - [Recopilación de hacks HTML y CSS por @mdo](http://uncasually.github.io/wtf-html-y-css/).
+- [Calculadora de especificidad](https://specificity.keegan.st/).
 
 
 <a name="contribuciones"></a>
