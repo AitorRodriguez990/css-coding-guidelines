@@ -91,7 +91,7 @@ Es muy importante tener el código bien comentado, puesto que esto ayudará a ot
   --------------------------------------------------------------------------- */
   
 /* Comentario de sub-sección. Ejemplo: Botones del PTA
-   -------------------------------------------------------------------------- */
+  --------------------------------------------------------------------------- */
   
 /**
  * Comentario descriptivo sobre la clase.
